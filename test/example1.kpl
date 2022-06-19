@@ -1,0 +1,17 @@
+Program Example1; (* Example 1 *)
+Var n: Integer;
+    i: Integer;
+Begin
+	CALL  WRITEC(' ');
+	i := -1;
+	n := 2 ** i;
+	Switch i
+	Begin
+		case 1: CALL  WRITEC('1');
+			Break;
+		case 2: CALL  WRITEC('2');
+			Break;
+		default:CALL  WRITEC('0');
+			Break
+	End
+End. (* Example 1 *)
